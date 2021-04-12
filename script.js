@@ -496,7 +496,7 @@ else if (operation == operationsList[2]) {
 } else if(operation == operationsList[4]){
     if (a !== null){
     alert(calculator.fact(a))
-    } else if (n !=== null) {
+    } else if (b !== null) {
     alert(calculator.fact(b))
     } else {
     alert("Ведіть значенння")
