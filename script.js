@@ -494,13 +494,7 @@ else if (operation == operationsList[2]) {
 } else if (operation == operationsList[0]) {
     calculator.div(a, b)
 } else if(operation == operationsList[4]){
-    if (a !== null){
     alert(calculator.fact(a))
-    } else if (b !== null) {
-    alert(calculator.fact(b))
-    } else {
-    alert("Ведіть значенння")
-    }
 }
 else if(operation == operationsList[5]) {
     if (b < 1) {
